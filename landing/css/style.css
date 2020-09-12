@@ -41,7 +41,7 @@ img{
 
 .header{
 	padding-bottom: 150px;
-	background-image: url(../img/bg/bg-1.png) !important;
+	background-image: url(../img/bg/bg-1f.png) !important;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -272,7 +272,7 @@ img{
 
 .statistics{
 	padding: 150px 0;
-	background-image: url(../img/bg/bg-2.png);
+	background-image: url(../img/bg/bg-2f.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -324,7 +324,11 @@ img{
 	margin-bottom: 150px;
 }
 .statistics_info-row:last-child{
-	margin-bottom: 150px;
+	margin-bottom: 25px;
+}
+
+.statistics_background-img{
+	text-align: center;
 }
 
 .statistics_info-box{
@@ -347,7 +351,7 @@ img{
 	border-color: transparent transparent transparent #ffffff;
 	position: absolute;
 	top: 50%;
-	right: -50px;
+	right: -49px;
 	transform: translateY(-50%);
 }
 .statistics_info-box--last:before{
@@ -360,7 +364,7 @@ img{
 	border-color: transparent #ffffff transparent transparent;
 	position: absolute;
 	top: 50%;
-	left: -50px;
+	left: -49px;
 	transform: translateY(-50%);
 }
 
@@ -393,12 +397,15 @@ img{
 }
 
 .statistics_cta-hold{
+	position: relative;
 	text-align: center;
 }
 
 .statistics_desc-bottom{
 	display: block;
-	padding-top: 180px;
+	position: absolute;
+  top: 100px;
+  right: 0;
 	font-size: 1.5rem;
 	text-align: right;
 	transform: rotate(10deg);
@@ -433,7 +440,7 @@ img{
 
 .reviews{
 	padding: 150px 0;
-	background-image: url(../img/bg/bg-4.png);
+	background-image: url(../img/bg/bg-4f.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -589,7 +596,8 @@ img{
 	}
 	
 	.statistics_desc-bottom{
-		margin-top: -85px;
+		/*margin-top: -85px;*/
+		top: 80px;
     padding-top: 0;
 	}
 	
@@ -825,10 +833,6 @@ img{
 			font-size: 1.5rem;
 		}
 		
-		.statistics_desc-bottom{
-			margin-top: -60px;
-		}
-		
 		.about_title,
 		.statistics_title,
 		.advantage_title,
@@ -870,8 +874,6 @@ img{
 		}
 		
 		.statistics_desc-bottom{
-			margin-top: -137px;
-			color: #fff;
 			font-size: 1rem;
 		}
 		
@@ -955,6 +957,15 @@ img{
     width: 80%;
 	}
 	
+	.statistics_info-row:last-child {
+    margin-bottom: 85px;
+	}
+	
+	.statistics_desc-bottom {
+    margin-top: 0px;
+		top: 0px;
+	}
+	
 	.statistics_info-box{
     width: 90%;
 		margin-left: 5%;
@@ -967,9 +978,8 @@ img{
 		margin-bottom: 0;	
 	}
 	
-	.statistics_desc-bottom{
-    margin-top: -22px;
-		color: #212121;
+	.statistics_info-num-item{
+		justify-content: center;
 	}
 	
 	.about,
