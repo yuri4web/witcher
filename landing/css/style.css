@@ -728,7 +728,7 @@ img{
 		}
 		
 		.form-section_form-hold{
-			width: 75%;
+			width: 95%;
 		}
 		
 		.form-section_subtitle{
@@ -785,7 +785,7 @@ img{
 		.header_menu{
 			display: none;
 			background-color: #fff;
-    	padding: 30px 20px;
+    			padding: 30px 20px;
 			text-align: left;
 			position: absolute;
 			top: 0;
@@ -813,7 +813,7 @@ img{
 		
 		.header_menu-item{
 			display: block;
-    	width: 100%;
+    			width: 100%;
 			margin-bottom: 30px;
 		}
 		.header_menu-item:last-child{
@@ -854,7 +854,7 @@ img{
 		}
 		
 		.statistics_portrait-text--big{
-    	font-size: 1.2em;
+    			font-size: 1.2em;
 		}
 		
 		.statistics_info-box{
@@ -922,10 +922,6 @@ img{
 	
 	.statistics_info-box{
     padding: 20px 20px;
-	}
-	
-	.form-section_form-hold{
-    width: 95%;
 	}
 	
 	.form-section_form-hold{
