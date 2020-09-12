@@ -230,18 +230,6 @@ img{
 	color: #0038ff;
 }
 
-.about_cta-hold{
-/*
-	background-image: url(../img/bg/human-bg.png);
-	background-repeat: no-repeat;
-*/
-/*
-	margin-top: -110px;
-	position: relative;
-	z-index: 1;
-*/
-}
-
 .about_btn-desc{
 	font-size: 1.3rem;
 	line-height: 1.4;
@@ -449,6 +437,10 @@ img{
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
+}
+
+.reviews_vk-block{
+	max-width: 800px;
 }
 
 .form-section{
