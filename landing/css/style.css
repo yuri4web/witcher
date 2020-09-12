@@ -932,6 +932,10 @@ img{
     margin-left: 18%;
 		transform: translateX(0);
 	}
+	
+	.form-section_form-hold {
+    		width: 100%;
+	}
 }
 
 @media screen and (max-width: 440px){
@@ -974,6 +978,10 @@ img{
 	.reviews,
 	.form-section{
     padding: 70px 0;
+	}
+	
+	.form-section_form-hold {
+    		padding: 15px 15px;
 	}
 	
 	.form-section_subtitle{
