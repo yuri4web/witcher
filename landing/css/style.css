@@ -41,7 +41,7 @@ img{
 
 .header{
 	padding-bottom: 150px;
-	background-image: url(../img/bg/bg-1f.png) !important;
+	background-image: url(/img/bg/bg-1f.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
