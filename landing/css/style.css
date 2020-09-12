@@ -457,6 +457,28 @@ img{
 	color: #0038ff;
 }
 
+.m2 .freebirdFormviewerViewHeaderHeader {
+    margin-top: 0;
+    border: 0;
+/*     border-radius: 8px; */
+    margin-bottom: 0;
+    padding: 20px;
+    padding-top: 20px;
+}
+
+.m2 .freebirdFormviewerViewHeaderTitle {
+    font-family: 'Montserrat',Roboto,Arial,sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    color: #212121;
+    line-height: 135%;
+    text-align: center;
+}
+
+.freebirdFormviewerViewHeaderThemeStripe{
+	display: none;
+}
+
 .form-section_form-hold{
 	padding: 55px 50px;
 	width: 50%;
