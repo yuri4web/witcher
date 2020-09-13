@@ -324,7 +324,7 @@ img{
 	margin-bottom: 150px;
 }
 .statistics_info-row:last-child{
-	margin-bottom: 60px;
+	margin-bottom: 140px;
 }
 
 .statistics_background-img{
@@ -404,7 +404,7 @@ img{
 .statistics_desc-bottom{
 	display: block;
 	position: absolute;
-  top: 100px;
+  top: 10px;
   right: 0;
 	font-size: 1.5rem;
 	text-align: right;
@@ -595,7 +595,6 @@ img{
 	}
 	
 	.statistics_desc-bottom{
-		/*margin-top: -85px;*/
 		top: 80px;
     padding-top: 0;
 	}
@@ -682,6 +681,10 @@ img{
 			margin: 0 auto;
 		}
 		
+		.statistics_info-row:last-child {
+			margin-bottom: 90px;
+	}
+		
 		.statistics_info-row:first-child > .statistics_info-img{
 			order: -1;
 		}
@@ -716,7 +719,7 @@ img{
 		}
 
 		.statistics_desc-bottom{
-			margin-top: -30px;
+			margin-top: -80px;
 		}
 
 		.statistics_background-img{
@@ -877,6 +880,10 @@ img{
 			font-size: 1rem;
 		}
 		
+		.statistics_info-row:last-child {
+			margin-bottom: 140px;
+	}
+		
 		.advantage_cards{
 			display: block;
 		}
@@ -970,11 +977,6 @@ img{
     width: 90%;
 		margin-left: 5%;
 	}
-	
-	/*.statistics_info-num-item{
-		width: 100%;
-	}*/
-	
 	
 	.statistics_info-num-item{
 		display: flex;
