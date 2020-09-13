@@ -122,6 +122,7 @@ img{
 }
 
 .header_btn-desc{
+	margin-top: 25px;
 	margin-left: 85px;
 	display: block;
 	color: #fff;
@@ -408,7 +409,7 @@ img{
   right: 0;
 	font-size: 1.5rem;
 	text-align: right;
-	transform: rotate(10deg);
+	transform: rotate(14deg);
 }
 
 .statistics_background-img{
